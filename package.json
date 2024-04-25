@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cron": "^3.1.7",
     "mongodb": "^6.5.0",
     "octokit": "^3.2.0"
   }

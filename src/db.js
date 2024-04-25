@@ -6,7 +6,11 @@ const dbName = config['mongodb-db-name']
 
 const mongoClient = new MongoClient(mongodbURL)
 
+await mongoClient.connect()
+
+const db = mongoClient.db(dbName)
+
 export {
     mongoClient,
-    dbName
+    db
 }
