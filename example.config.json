@@ -1,0 +1,13 @@
+{
+    "mongodb-url": "mongodb://localhost:27017",
+    "mongodb-db-name": "issues",
+    "github-token": "",
+    "projects": [
+        {
+            "owner": "ethereum",
+            "repository": "go-ethereum",
+            "labels": ["good first issue"],
+            "since": "2024-01-15"
+        }
+    ]
+}
